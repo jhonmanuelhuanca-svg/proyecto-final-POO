@@ -11,6 +11,13 @@ class MetodoPago:
     def procesar_pago(self, total):
         self._monto_total = total
 
+class PagoQR(MetodoPago):
+    def __init__(self, codigo_transaccion):
+        super().__init__()
+        if not self.validar_cod(codigo_transaccion):
+            raise ValueError("Codigo de transaccion debe tener 10 digitos")
+        self.__codigo_trasaccion = codigo_transaccion
+
 class PagoEfectivo(MetodoPago):
 
     def __init__(self, monto_recibido):
@@ -38,3 +45,4 @@ class PagoTarjeta(MetodoPago):
     def procesar_pago(self, total):
         self.__comision = self.calcular_comision(total)
         self._monto_total = round(total + self.__comision, 2)
+
