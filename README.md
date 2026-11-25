@@ -4,8 +4,8 @@ Proyecto integrador de Programación Orientada a Objetos. Aplicación de consola
 (sin librerías externas).
 
 **Universidad:** Universidad Adventista de Bolivia (UAB) · Ingeniería de Sistemas
-**Integrantes:** [Nombre del estudiante 1], [Nombre del estudiante 2]
-**Docente:** [Nombre del docente] · **Gestión:** 2026
+**Integrantes:** Jhon Manuel Huanca Quispe, Evelyn Quelca Olivera, Ronaldo Bautista Nina
+**Docente:** Roy Asaff Carrasco Aguila  · **Gestión:** 2026
 
 ## Cómo ejecutar
 
