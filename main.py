@@ -1,7 +1,7 @@
 from modelo.pedido import EstadoPedido, PedidoLocal, PedidoLlevar, PedidoDelivery
 from modelo.cliente import Cliente
 from modelo.producto import Plato, Bebida, Combo
-from modelo.pagos import PagoEfectivo, PagoQR, PagoTarjeta
+from modelo.pago import PagoEfectivo, PagoQR, PagoTarjeta
 
 
 class SistemaPedidos:
